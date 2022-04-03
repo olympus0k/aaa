@@ -1,10 +1,10 @@
-from colors import green, red, blue, yellow, purple, white
+
 
 import os, time
 
 
 
-red()
+
 
 banner = """
 
@@ -17,7 +17,7 @@ banner = """
 """
 
 def decoracion():
-    purple()
+    
     
     print("                                1 reverseshell")
     print("                                2 aprpoisoning")
@@ -50,9 +50,9 @@ def decoracion():
 
 def start_menu():
     os.system("clear")
-    red()
+    
     print(banner)
-    purple()
+    
     decoracion()
 
 
@@ -72,9 +72,9 @@ def start_menu():
 
 def rev():
     os.system("clear")
-    green()
+    
     print(banner)
-    purple()
+    
     print("                                  1  download script")
     print("                                  2  run script")
     print("                                  3  Exit")
@@ -82,11 +82,11 @@ def rev():
 
     print("")
     if x == "1":
-        green()
+        
         
         
         os.system("curl https://raw.githubusercontent.com/olympus0k/reverseshell-/main/reverseshell.py -o reverseshell.py")
-        red()
+        
         print("done")
         time.sleep(2)
         while True:
@@ -103,9 +103,9 @@ def rev():
 def arp():
     os.system("clear")
 
-    blue()
+    
     print(banner)
-    red()
+    
     print("                               1  download script")
     print("                               2  run script")
     print("                               3  quit")
@@ -114,10 +114,10 @@ def arp():
     print("")
     if x == "1":
         
-        green()
+        
         os.system("curl https://raw.githubusercontent.com/olympus0k/arppoison/main/arph.py -o arppoison.py")
         
-        red()
+        
         print("done")
         time.sleep(1)
         while True:
@@ -137,9 +137,9 @@ def arp():
 
 def backdoor():
     os.system("clear")
-    red()
+    
     print(banner)
-    purple()
+    
     print("              |                    1 download script")
     print("              |                    2 run script")
     print("              |                    3 quit")
@@ -147,9 +147,9 @@ def backdoor():
     option = input("              +-> ")
     if option == "1":
         print("")
-        yellow()
+        
         os.system("git clone https://github.com/qpzux/Backdoor-no-website.git")
-        red()
+        
         print("done")
         time.sleep(2)
         while True:
